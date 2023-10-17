@@ -2,7 +2,7 @@ import { Pipeline } from "./pipeline";
 import { PipelineError } from "./pipeline-error";
 import { PipelineMiddleware } from "./pipeline-middleware";
 
-export class PipelineManager<TRequest, TResult> {
+export class PipelineFactory<TRequest, TResult> {
   private _middlewares: Array<PipelineMiddleware<TRequest, TResult>>;
 
   constructor() {
