@@ -1,6 +1,6 @@
 {
   "name": "pipelineer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A generic pipeline / chain of responsibility / middleware library built with Typescript.",
   "main": "build/index.js",
   "scripts": {
