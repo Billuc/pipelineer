@@ -3,6 +3,7 @@ import { Pipeline } from "../../src/pipeline";
 describe("Pipeline", () => {
   it("should construct", () => {
     const pipeline = new Pipeline<string, string>([]);
+    
     expect(pipeline).not.toBeNull();
   });
 
